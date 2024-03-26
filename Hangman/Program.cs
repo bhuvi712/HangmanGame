@@ -14,6 +14,7 @@ internal class Program
         StartGame();
         PlayGame();
         EndGame();
+        Console.WriteLine("Test");
     }
 
     private static void StartGame()
