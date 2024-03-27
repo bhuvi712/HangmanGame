@@ -14,7 +14,6 @@ internal class Program
         StartGame();
         PlayGame();
         EndGame();
-        Console.WriteLine("Test");
     }
 
     private static void StartGame()
@@ -67,8 +66,9 @@ internal class Program
         foreach(char c in letters)
         {
             Console.WriteLine(c);
-            Console.WriteLine();
-        }
+        }       
+        Console.WriteLine();
+        
     }
     static char AskForLetter()
     {
@@ -88,7 +88,5 @@ internal class Program
         Console.WriteLine("Game over...");
         Console.WriteLine($"Thank you for playing: {Name}");
         Console.WriteLine($"Guesses: {NumberOfGuesses}");
-
-
     }
 }
